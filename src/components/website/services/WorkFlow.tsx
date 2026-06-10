@@ -1,12 +1,22 @@
 import React from 'react';
 
+// 1. Workflow item ki type define ki taaki TS ko pata chale data kya hai
+type WorkflowStep = {
+  step: string;
+  title: string;
+  desc: string;
+  icon: React.FC<React.ComponentProps<'svg'>>; // Bataya ke icon ek SVG component hai
+};
+
 const Workflow = () => {
-  const steps = [
+  // 2. Array ko WorkflowStep type di
+  const steps: WorkflowStep[] = [
     {
       step: "01",
       title: "Engineering & Design",
       desc: "Our CAD experts create detailed 3D blueprints and structural calculations tailored to your facility's layout.",
-      icon: (props) => (
+      // 3. (props) ko (props: React.ComponentProps<'svg'>) mein badal diya
+      icon: (props: React.ComponentProps<'svg'>) => (
         <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m15 5 4 4"></path><path d="M13 7 8.7 2.7a2.41 2.41 0 0 0-3.4 0L2.7 5.3a2.41 2.41 0 0 0 0 3.4L7 13"></path><path d="m8 6 2-2"></path><path d="m2 22 7.6-7.6"></path><path d="M12.5 10.5 22 20"></path><path d="m15 15 2 2"></path><path d="m20 12-2 2"></path><path d="m18 18 4 4"></path></svg>
       ),
     },
@@ -14,7 +24,7 @@ const Workflow = () => {
       step: "02",
       title: "Precision Manufacturing",
       desc: "Using high-grade steel and automated welding, we manufacture components that exceed international safety standards.",
-      icon: (props) => (
+      icon: (props: React.ComponentProps<'svg'>) => (
         <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 20V10l10-5 10 5v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2Z"></path><path d="M17 18h1"></path><path d="M12 18h1"></path><path d="M7 18h1"></path></svg>
       ),
     },
@@ -22,7 +32,7 @@ const Workflow = () => {
       step: "03",
       title: "On-Site Installation",
       desc: "Our certified installation teams execute the project with surgical precision, ensuring perfect alignment and safety.",
-      icon: (props) => (
+      icon: (props: React.ComponentProps<'svg'>) => (
         <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M10 17h4V2H10z"></path><path d="M14 17h1a3 3 0 0 1 3 3 3 3 0 0 1-3 3h-8a3 3 0 0 1-3-3 3 3 0 0 1 3-3h1"></path><path d="M13 17V9"></path><path d="M9 17V9"></path></svg>
       ),
     },
@@ -59,6 +69,7 @@ const Workflow = () => {
             >
               {/* Step Icon Container */}
               <div className="w-24 h-24 bg-slate-900 border-2 border-[#D62828] flex items-center justify-center mb-8 relative z-20 group-hover:bg-[#D62828] transition-all duration-500 rounded-sm">
+                {/* step.icon call ho raha hai */}
                 <item.icon className="w-10 h-10 text-[#D62828] group-hover:text-white transition-colors duration-500" />
                 
                 {/* Step Number Badge */}

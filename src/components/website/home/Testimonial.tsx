@@ -1,14 +1,23 @@
 import React from 'react';
 
+// 1. Testimonial ki type define ki (Best Practice)
+type Testimonial = {
+  name: string;
+  role: string;
+  company: string;
+  text: string;
+};
+
 const Testimonials = () => {
-  const testimonialsRow1 = [
+  // 2. Arrays ko type di taaki TypeScript ko pata ho inme kya data hai
+  const testimonialsRow1: Testimonial[] = [
     { name: "Ahmed Khan", role: "Warehouse Manager", company: "Metro Logistics", text: "Rack-Regis transformed our storage efficiency. Their structural design is top-notch!" },
     { name: "Sarah Williams", role: "Operations Head", company: "Retail Corp", text: "The checkout counters are not only durable but also look very premium in our stores." },
     { name: "Zubair Sheikh", role: "Site Engineer", company: "Build-Pro", text: "Precision engineering at its best. Their safety audits gave us total peace of mind." },
     { name: "John Doe", role: "CEO", company: "Doha Mart", text: "Fastest installation team we have ever worked with. Highly recommended!" },
   ];
 
-  const testimonialsRow2 = [
+  const testimonialsRow2: Testimonial[] = [
     { name: "Usman Ali", role: "Supply Chain Manager", company: "Panda Supermarket", text: "The quality of steel and finish is unmatched. Truly industrial grade." },
     { name: "Maria Garcia", role: "Project Manager", company: "Logi-Tech", text: "Their custom mezzanine floors saved us 40% more space. Fantastic work!" },
     { name: "Tariq Mahmood", role: "Safety Officer", company: "Safe-Storage", text: "Compliance with ISO standards was our priority, and Rack-Regis delivered perfectly." },
@@ -23,7 +32,8 @@ const Testimonials = () => {
     <svg width="80" height="80" viewBox="0 0 24 24" fill="currentColor" className="opacity-10"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path></svg>
   );
 
-  const TestimonialCard = ({ item }) => (
+  // 3. FIX: 'item' prop ko type assign ki
+  const TestimonialCard = ({ item }: { item: Testimonial }) => (
     <div className="flex-shrink-0 w-[350px] mx-4 bg-white border border-slate-100 p-8 shadow-sm hover:shadow-xl transition-all group relative overflow-hidden">
       {/* Background Quote Icon */}
       <div className="absolute -top-2 -right-2 text-slate-100 group-hover:text-red-50 transition-colors">
@@ -83,7 +93,7 @@ const Testimonials = () => {
         </div>
       </div>
 
-      {/* Row 1: Left to Right (Actually moves left infinitely) */}
+      {/* Row 1: Left to Right */}
       <div className="relative flex overflow-hidden mb-8">
         <div className="animate-marquee-left">
           {[...testimonialsRow1, ...testimonialsRow1].map((t, i) => (

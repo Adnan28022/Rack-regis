@@ -1,8 +1,13 @@
 "use client";
 import React, { useEffect, useState } from "react";
-
-export default function QuoteModal({ isOpen, onClose }) {
-  // Modal ke state handle karne ke liye (mounting/unmounting animation ke liye)
+interface QuoteModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+}
+export default function QuoteModal({
+  isOpen,
+  onClose,
+}: QuoteModalProps) {
   const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {

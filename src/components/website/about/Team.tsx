@@ -6,25 +6,25 @@ const Team = () => {
     {
       name: "Engr. Salman Regis",
       role: "Chief Executive Officer",
-      img: "/About/Team1.avif",
+      img: "/About/Team1.webp",
       linkedin: "#",
     },
     {
       name: "M. Abdullah",
       role: "Head of Structural Design",
-      img: "/About/Team2.avif",
+      img: "/About/Team2.webp",
       linkedin: "#",
     },
     {
       name: "Engr. Farhan Ali",
       role: "Senior Site Supervisor",
-      img: "/About/Team3.jfif",
+      img: "/About/Team3.webp",
       linkedin: "#",
     },
     {
       name: "Zainab Malik",
       role: "Quality Assurance Lead",
-      img: "/About/Team4.jfif",
+      img: "/About/Team4.webp",
       linkedin: "#",
     },
   ];

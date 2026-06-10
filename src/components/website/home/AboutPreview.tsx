@@ -28,7 +28,7 @@ const AboutPreview = () => {
             {/* Main Image */}
             <div className="relative z-10 w-full md:w-[80%] h-[400px] md:h-[500px] rounded-sm overflow-hidden shadow-2xl border-8 border-white">
               <Image 
-                src="/Home/About.jfif" 
+                src="/Home/About.webp" 
                 alt="Engineering Team"
                 fill
                 className="object-cover grayscale hover:grayscale-0 transition-all duration-700"

@@ -18,7 +18,7 @@ export const productsData = {
     category: "Store Equipment",
     slug: "heavy-duty-rolling-baskets",
     description: "High-grade durable plastic baskets with smooth-rolling wheels for easy maneuverability in tight aisles.",
-    image: "/Home/Product-2.jfif",
+    image: "/Home/Product-2.webp",
     features: ["Reinforced Handles", "Silent Rubber Wheels", "Stackable Design", "UV Resistant Material"],
     specs: [
       { label: "Volume", value: "55 Liters" },
@@ -32,7 +32,7 @@ export const productsData = {
     category: "Shopping Accessories",
     slug: "chrome-wire-basket",
     description: "Classic stackable wire basket with reinforced red handles for comfort and strength. High-polish chrome finish.",
-    image: "/Home/Product-3.jfif",
+    image: "/Home/Product-3rd.webp",
     features: ["High-Polish Chrome", "Reinforced Grip", "Compact Stacking", "Anti-Rust Coating"],
     specs: [
       { label: "Material", value: "Bright Zinc Plated Steel" },

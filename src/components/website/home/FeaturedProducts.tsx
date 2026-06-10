@@ -27,7 +27,7 @@ const products: Product[] = [
     slug: "heavy-duty-rolling-baskets",
     category: "Store Equipment",
     description: "High-grade durable plastic baskets with smooth-rolling wheels for easy maneuverability.",
-    image: "/Home/Product-2.jfif",
+    image: "/Home/Product-2.webp",
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const products: Product[] = [
     slug: "chrome-wire-basket",
     category: "Shopping Accessories",
     description: "Classic stackable wire basket with reinforced red handles for comfort and strength.",
-    image: "/Home/Product-3rd.jpg",
+    image: "/Home/Product-3rd.webp",
   }
 ];
 

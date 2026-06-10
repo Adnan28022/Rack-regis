@@ -4,7 +4,7 @@ export const productsData = {
     category: "Retail Solutions",
     slug: "industrial-checkout-counter",
     description: "Heavy-duty ergonomic design with premium finish and built-in storage drawers. Engineered for high-traffic retail environments.",
-    image: "/Home/Product-1.jfif",
+    image: "/Home/Product-1.webp",
     features: ["Ergonomic Design", "Heavy-duty Steel Base", "Scratch-resistant Top", "Integrated Cable Management"],
     specs: [
       { label: "Material", value: "Powder Coated Steel & High-Pressure Laminate" },

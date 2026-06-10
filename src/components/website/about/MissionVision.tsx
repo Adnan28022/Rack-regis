@@ -50,7 +50,7 @@ const MissionVision = () => {
           <div className="relative p-12 lg:p-20 group overflow-hidden bg-white/[0.02]">
              {/* Vision Image Background Overlay */}
              <Image 
-              src="/About/Mission2.jfif" 
+              src="/About/Mission2.webp" 
               alt="Vision" 
               fill 
               className="object-cover opacity-10 group-hover:opacity-20 transition-opacity duration-500"

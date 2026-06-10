@@ -1,26 +1,34 @@
 import React from 'react';
 
+// 1. Support Service ki type define ki
+type SupportService = {
+  title: string;
+  description: string;
+  icon: React.FC<React.ComponentProps<'svg'>>;
+};
+
 const ServiceSupport = () => {
-  const supportServices = [
+  // 2. Array ko type assign ki
+  const supportServices: SupportService[] = [
     {
       title: "Safety Audits (SARI)",
       description: "Annual structural inspections to ensure your racking systems meet international safety standards and prevent warehouse accidents.",
-      icon: (props) => <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="M12 8v4"></path><path d="M12 16h.01"></path></svg>,
+      icon: (props: React.ComponentProps<'svg'>) => <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="M12 8v4"></path><path d="M12 16h.01"></path></svg>,
     },
     {
       title: "Rack Relocation",
       description: "Professional dismantling and re-installation of your existing systems when moving facilities or re-configuring layouts.",
-      icon: (props) => <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path><path d="M3 3v5h5"></path><path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16"></path><path d="M16 16h5v5"></path></svg>,
+      icon: (props: React.ComponentProps<'svg'>) => <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path><path d="M3 3v5h5"></path><path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16"></path><path d="M16 16h5v5"></path></svg>,
     },
     {
       title: "Repair & Maintenance",
       description: "Rapid response teams to replace damaged uprights or beams using high-strength components without disrupting operations.",
-      icon: (props) => <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m12 19 7-7 3 3-7 7-3-3z"></path><path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="m2 2 5 5"></path><path d="m8.5 14.5-1.5-6.5 6.5 1.5"></path></svg>,
+      icon: (props: React.ComponentProps<'svg'>) => <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m12 19 7-7 3 3-7 7-3-3z"></path><path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="m2 2 5 5"></path><path d="m8.5 14.5-1.5-6.5 6.5 1.5"></path></svg>,
     },
     {
       title: "Load Capacity Certification",
       description: "Technical evaluation and labeling of load limits for every rack level to ensure operational compliance.",
-      icon: (props) => <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><path d="m9 15 2 2 4-4"></path></svg>,
+      icon: (props: React.ComponentProps<'svg'>) => <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><path d="m9 15 2 2 4-4"></path></svg>,
     },
   ];
 
@@ -93,6 +101,7 @@ const ServiceSupport = () => {
                 className="bg-white p-8 border border-slate-200 hover:border-[#D62828]/50 hover:-translate-y-1 transition-all duration-300 shadow-xl shadow-slate-200/50 group"
               >
                 <div className="w-12 h-12 bg-slate-950 text-white flex items-center justify-center mb-6 group-hover:bg-[#D62828] transition-colors">
+                  {/* Service icon used as a component */}
                   <service.icon className="w-6 h-6" />
                 </div>
                 <h4 className="text-lg font-black uppercase mb-3 text-slate-950 leading-tight tracking-tight">

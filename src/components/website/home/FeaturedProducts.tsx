@@ -19,7 +19,7 @@ const products: Product[] = [
     slug: "industrial-checkout-counter",
     category: "Retail Solutions",
     description: "Heavy-duty ergonomic design with premium finish and built-in storage drawers.",
-    image: "/Home/Product-1.jfif",
+    image: "/Home/Product-1.webp",
   },
   {
     id: 2,

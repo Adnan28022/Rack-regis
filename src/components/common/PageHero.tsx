@@ -1,7 +1,12 @@
 import React from 'react';
 import Image from "next/image";
+interface PageHeroProps {
+  title: string;
+  subtitle: string;
+  bgImage: string;
+}
 
-const PageHero = ({ title, subtitle, bgImage }) => {
+const PageHero = ({ title, subtitle, bgImage }: PageHeroProps) => {
   return (
     <section className="relative h-[50vh] md:h-[60vh] w-full flex items-center overflow-hidden bg-slate-950 font-sans">
       

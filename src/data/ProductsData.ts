@@ -42,7 +42,7 @@ export const productsData: Record<string, Product> = {
   { label: "Decking", value: "Steel Decking" }
 ]
   },
-  "double-deep-racking-system": {
+   "double-deep-racking-system": {
     id: "HD-103",
     name: "Double Deep Racking System",
     category: "Heavy Duty Racks",
@@ -264,6 +264,111 @@ export const productsData: Record<string, Product> = {
   { label: "Finish", value: "Premium Powder-Coated Finish" },
   { label: "Dimensions", value: "Custom Sizes Available" },
   { label: "Configuration", value: "Tailored to Customer Requirements" }
+]
+  },
+  "medium-duty-rack-with-mesh-decking": {
+    id: "MD-301",
+    name: "Medium Duty Rack With Mesh Decking",
+    category: "Medium Duty Racks",
+    subCategory: "Medium Duty Rack With Mesh Decking",
+    description: "Medium Duty Steel Shelving Units with Wire Shelves . Medium Duty Steel Shelving Units with 4 gauge 3″ square welded galvanized wire shelves. Increase visual access, ventilation, and sprinkler coverage, and reduce insurance costs with wire decking shelves.This version of the Metal Point boltless system is particularly suitable for light and medium loads, with a load capacity of 440 lbs per level. Whatever size you select, the shelf is delivered with 5 levels of wire mesh shelves.",
+    images: ["/Products/MediumDutyRacks/Mesh-1.jpg", "/Products/MediumDutyRacks/Mesh-2.jpg", "/Products/MediumDutyRacks/Mesh-3.jpg"],
+    features:[  "Medium Load Capacity",  "Mesh Decking Support",  "Strong Steel Frame",  "Better Airflow",  "Easy Access Storage",  "Adjustable Shelves"],
+    specs: [
+  { label: "System Type", value: "Medium Duty Storage Rack" },
+  { label: "Material", value: "High Quality Mild Steel" },
+  { label: "Finish", value: "Powder Coated Anti-Corrosion" },
+  { label: "Decking", value: "Steel Mesh Decking" }
+]
+  },
+  "medium-duty-racks-with-plastic-containers": {
+    id: "MD-302",
+    name: "Medium Duty Racks With Plastic Containers",
+    category: "Medium Duty Racks",
+    subCategory: "Medium Duty Racks With Plastic Containers",
+    description: "Medium Duty Racks with Plastic Containers is a practical storage system designed for organized handling of small to medium parts, offering easy sorting, visibility, and efficient space utilization in workshops and warehouses.",
+    images: ["/Products/MediumDutyRacks/Mesh-3.jpg", "/Products/MediumDutyRacks/Mesh-1.jpg", "/Products/MediumDutyRacks/Mesh-2.jpg"],
+    features:[  "Organized Storage",  "Easy Identification",  "Space Efficient",  "Durable Structure",  "Removable Bins",  "Lightweight Design"],
+    specs: [
+  { label: "System Type", value: "Medium Duty Rack with Plastic Containers" },
+  { label: "Material", value: "High Quality Mild Steel + Plastic Bins" },
+  { label: "Finish", value: "Powder Coated Anti-Corrosion" },
+  { label: "Storage Type", value: "Removable Plastic Storage Bins" }
+]
+  },
+  "rack-with-steel-decking": {
+    id: "MD-303",
+    name: "Rack with Steel Decking",
+    category: "Medium Duty Racks",
+    subCategory: "Rack with Steel Decking",
+    description: "Heavy-duty racks can incorporate additional shelves to increase storage area. Thanks to the perforated struts, the height of levels can be adjusted every 2″.Each additional level comprises two beams and galvanized steel panels, the width and number will depend on the length of the level. Consult our technical team to choose other materials: particle board or wire mesh.Depending on the widths and depths, each level can handle a weight of up to 2,500 lbs.",
+    images: ["/Products/MediumDutyRacks/Steel-1.jpg", "/Products/MediumDutyRacks/Steel-2.jpg", "/Products/MediumDutyRacks/Steel-3.jpg", "/Products/MediumDutyRacks/Steel-4.jpg"],
+    features:[  "Medium Load Capacity",  "Strong Steel Decking",  "Durable Construction",  "Stable Storage System",  "Easy Access Design",  "Adjustable Shelves"],
+    specs: [
+  { label: "System Type", value: "Medium Duty Rack with Steel Decking" },
+  { label: "Material", value: "High Quality Mild Steel" },
+  { label: "Finish", value: "Powder Coated Anti-Corrosion" },
+  { label: "Decking", value: "Steel Decking" }
+]
+  },
+   "mezzanine-on-gange-ways": {
+    id: "MSPF-401",
+    name: "Mezzanine on Gange Ways",
+    category: "Mezzanine & Steel Plat Fram",
+    subCategory: "Mezzanine on Gange Ways",
+    description: "Mezzanine with Gangways is a multi-level industrial flooring system designed to maximize vertical space utilization, providing safe access walkways for efficient material handling and storage operations.",
+    images: ["/Products/MSPF/Gange-1.webp", "/Products/MSPF/Gange-2.webp", "/Products/MSPF/Gange-3.webp"],
+    features:[  "Space Utilization",  "Multi Level Design",  "Safe Walkways",  "Heavy Duty Structure",  "Easy Access",  "Custom Layouts"],
+    specs: [
+  { label: "System Type", value: "Mezzanine Floor with Gangways" },
+  { label: "Material", value: "High Strength Structural Steel" },
+  { label: "Finish", value: "Powder Coated Anti-Corrosion" },
+  { label: "Load Capacity", value: "500–1000 KG per Sq. Meter (Customizable)" }
+]
+  },
+  "over-head-steel-plate-farms": {
+    id: "MSPF-402",
+    name: "Over head Steel Plate Farms",
+    category: "Mezzanine & Steel Plat Fram",
+    subCategory: "Over Head Steel Plate Farms",
+    description: "Overhead Steel Plate Farms is a heavy-duty overhead storage structure designed for safe stacking and handling of steel plates, maximizing floor space and improving industrial storage efficiency.",
+    images: ["/Products/MSPF/OverHead-1.webp", "/Products/MSPF/OverHead-2.webp", "/Products/MSPF/OverHead-3.webp", "/Products/MSPF/OverHead-4.webp"],
+    features:[  "Overhead Storage",  "High Load Capacity",  "Space Saving",  "Heavy Duty Build",  "Safe Plate Handling",  "Industrial Use"],
+    specs: [
+  { label: "System Type", value: "Overhead Steel Plate Storage System" },
+  { label: "Material", value: "High Strength Structural Steel" },
+  { label: "Finish", value: "Industrial Grade Powder Coated" },
+  { label: "Load Capacity", value: "As per design requirement (Heavy Duty Industrial Grade)" }
+]
+  },
+  "steel-mezzanine-with-medium-duty-racks": {
+    id: "MSPF-403",
+    name: "Steel Mezzanine with Medium Duty Racks",
+    category: "Mezzanine & Steel Plat Fram",
+    subCategory: "Steel Mezzanine with Medium Duty Racks",
+    description: "Mezzanine floor add a second or third level inside your facility to create more usable space. These Mezzanines are customized to fit your exact area, height , colour and load requirements. The bottom shelves support the upper platform. Taking full advantage of the space, it is typical application for manual picking goods.Slides or ramps can be optionally customized for the multi-layer rack system. For high management efficiency, platform lorry is selective to be used in the two-layer racks if required.",
+    images: ["/Products/MSPF/SteelMez-1.jpg", "/Products/MSPF/SteelMez-2.jpg", "/Products/MSPF/SteelMez-3.jpg", "/Products/MSPF/SteelMez-4.jpg", "/Products/MSPF/SteelMez-5.jpg"],
+    features:[  "Multi Level Storage",  "Medium Duty Racking",  "Space Optimization",  "Strong Steel Structure",  "Easy Access",  "Modular Design"],
+    specs: [
+  { label: "System Type", value: "Steel Mezzanine with Medium Duty Racks" },
+  { label: "Material", value: "High Strength Structural Steel" },
+  { label: "Finish", value: "Powder Coated Anti-Corrosion" },
+  { label: "Load Capacity", value: "300–800 KG per Sq. Meter (Customizable)" }
+]
+  },
+  "steel-mezzanine-with-short-span-racks": {
+    id: "MSPF-404",
+    name: "Steel Mezzanine with Short Span Racks",
+    category: "Mezzanine & Steel Plat Fram",
+    subCategory: "Steel Mezzanine with Short Span Racks",
+    description: "Mezzanine floor add a second or third level inside your facility to create more usable space. These Mezzanines are customized to fit your exact area, height , colour and load requirements. The bottom shelves support the upper platform. Taking full advantage of the space, it is typical application for manual picking goods.Slides or ramps can be optionally customized for the multi-layer rack system. For high management efficiency, platform lorry is selective to be used in the two-layer racks if required.",
+    images: ["/Products/MSPF/ShortMez-1.jpg", "/Products/MSPF/ShortMez-2.jpg", "/Products/MSPF/ShortMez-3.jpg"],
+    features:[  "High Storage Density",  "Short Span Racking",  "Multi Level Design",  "Strong Steel Build",  "Easy Access",  "Space Efficient"],
+    specs: [
+  { label: "System Type", value: "Steel Mezzanine with Short Span Racks" },
+  { label: "Material", value: "High Strength Structural Steel" },
+  { label: "Finish", value: "Powder Coated Anti-Corrosion" },
+  { label: "Load Capacity", value: "200–600 KG per Level (Customizable)" }
 ]
   }
 };

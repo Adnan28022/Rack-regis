@@ -18,7 +18,7 @@ export const productsData: Record<string, Product> = {
     category: "Heavy Duty Racks",
     subCategory: "Bulk Rack With Mesh Decking",
     description: "High-density industrial storage solution featuring reinforced wire mesh decking for superior air flow and safety compliance.",
-    images: ["/Home/About.webp", "/Home/About-2.webp", "/Products/ProductsHero.webp"],
+    images: ["/Products/HeavyDutyRacks/Bulk-Rack-With-Mesh-Decking-1.jpg", "/Products/HeavyDutyRacks/Bulk-Rack-With-Mesh-Decking-2.jpg", "/Products/HeavyDutyRacks/Bulk-Rack-With-Mesh-Decking-3.jpg", "/Products/HeavyDutyRacks/Bulk-Rack-With-Mesh-Decking-4.jpg"],
     features: ["Heavy Load Capacity", "Fire Safety Compliant", "Easy Assembly", "Corrosion Resistant"],
     specs: [
       { label: "Load Capacity", value: "2500KG / Level" },
@@ -26,6 +26,66 @@ export const productsData: Record<string, Product> = {
       { label: "Finish", value: "Powder Coated" },
       { label: "Decking", value: "Galvanized Mesh" }
     ]
+  },
+   "bulk-rack-steel-decking": {
+    id: "HD-102",
+    name: "Bulk Rack With Steel Decking",
+    category: "Heavy Duty Racks",
+    subCategory: "Bulk Rack With Steel Decking",
+    description: "Bulk Rack with Steel Decking is a heavy-duty industrial storage system designed for maximum strength, stability, and safe storage of bulk materials.",
+    images: ["/Products/HeavyDutyRacks/Bulk-Rack-With-Steel-Decking-1.jpg", "/Products/HeavyDutyRacks/Bulk-Rack-With-Steel-Decking-2.jpg", "/Products/HeavyDutyRacks/Bulk-Rack-With-Steel-Decking-3.jpg"],
+    features: [  "Heavy-Duty Load Capacity",  "Strong Steel Decking",  "High Stability Structure",  "Long-Lasting Durability",  "Corrosion-Resistant Finish",  "Safe Bulk Storage",  "Easy Installation",  "Industrial Grade Design"],
+    specs: [
+  { label: "Load Capacity", value: "2500KG / Level" },
+  { label: "Material", value: "High Grade Cold Rolled Steel" },
+  { label: "Finish", value: "Powder Coated" },
+  { label: "Decking", value: "Steel Decking" }
+]
+  },
+  "double-deep-racking-system": {
+    id: "HD-103",
+    name: "Double Deep Racking System",
+    category: "Heavy Duty Racks",
+    subCategory: "Double Deep Racking System",
+    description: "Double Deep Racking System is a high-density storage solution designed to maximize warehouse space by storing pallets two deep, ensuring efficient utilization and optimized inventory management.",
+    images: ["/Products/HeavyDutyRacks/Double-Deep.jpg"],
+    features: [  "High Storage Density",  "Space Optimization Design",  "Heavy-Duty Steel Structure",  "Selective Access System",  "Adjustable Beam Levels",  "Durable Powder Coating",  "Forklift Compatible",  "Industrial Grade Safety"],
+    specs: [
+  { label: "System Type", value: "Double Deep Pallet Racking" },
+  { label: "Material", value: "High Strength Steel" },
+  { label: "Finish", value: "Powder Coated Anti-Corrosion" },
+  { label: "Load Capacity", value: "Up to 2000–3000 KG per Level (Customizable)" }
+]
+  },
+   "drive-in-drive-thru-racking-system": {
+    id: "HD-104",
+    name: "Drive in Drive Thru Racking System",
+    category: "Heavy Duty Racks",
+    subCategory: "Drive in Drive Thru Racking System",
+    description: "Drive-in racks are designed for storing of pallets in channels on the principle of LIFO: Last In First Out. Like front loading racks, the drive-in racks are a kind of the pallet storage racking, but their cargo handling method is different: drive-in racking exclude the possibility of direct access to each individual section, but these racks are essential where it is not necessary to load and unload the pallets frequently. They are useable for the storage of similar cargoes and seasonal products with a long shelf life. Drive-in pallet racks are widely used in chambers with artificial climate as well (low temperature, refrigeration, air conditioning, etc.)",
+    images: ["/Products/HeavyDutyRacks/DiDu-1.gif", "/Products/HeavyDutyRacks/DiDu-2.png", "/Products/HeavyDutyRacks/DiDu-3.jpg", "/Products/HeavyDutyRacks/DiDu-4.jpg"],
+    features: [  "High Density",  "Space Saving",  "Deep Storage",  "Forklift Access",  "Heavy Duty"],
+    specs: [
+  { label: "System Type", value: "Drive-In / Drive-Thru Racking" },
+  { label: "Material", value: "High Strength Steel" },
+  { label: "Finish", value: "Powder Coated Anti-Corrosion" },
+  { label: "Load Capacity", value: "Up to 1000–2000 KG per Pallet Level" }
+]
+  },
+  "palletized-racks": {
+    id: "HD-105",
+    name: "Palletized Racks",
+    category: "Heavy Duty Racks",
+    subCategory: "Palletized Racks",
+    description: "Palletized Racking System.....Our company offers robust range of Palletized Racking System that is chiefly developed for keeping goods and material on palletized base. These are one of the toughest racking systems, where the load bearing strength is highest. We find this racking system in chemical industry, sanitary industry, food & beverage industry etc.",
+    images: ["/Products/HeavyDutyRacks/Palletized-Rack-1.jpg", "/Products/HeavyDutyRacks/Palletized-Rack-2.jpg", "/Products/HeavyDutyRacks/Palletized-Rack-3.jpg"],
+    features:[  "High Load Capacity",  "Easy Pallet Access",  "Adjustable Levels",  "Space Optimization",  "Heavy Duty Structure", "Forklift Compatible"],
+    specs: [
+  { label: "System Type", value: "Palletized Storage Racking" },
+  { label: "Material", value: "High Strength Industrial Steel" },
+  { label: "Finish", value: "Powder Coated Anti-Corrosion" },
+  { label: "Load Capacity", value: "Up to 1000–4000 KG per Level (Customizable)" }
+]
   },
   "gondola-rack": {
     id: "DR-201",

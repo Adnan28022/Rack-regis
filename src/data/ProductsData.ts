@@ -33,7 +33,7 @@ export const productsData: Record<string, Product> = {
     category: "Display Racks",
     subCategory: "Gondola Rack",
     description: "Self Standing two side shelving know as gondola.Basic Component it a center has base shelve fixed in the pillar and town side back sheet make is stronger enough to self stand. it mostly placed at center of shop.",
-    images: ["/Products/DisplayRacks/GondolaRacks/gondola-rack-1.jpg", "/Products/DisplayRacks/GondolaRacks/Gondola-Rack-2.png"],
+    images: ["/Products/DisplayRacks/GondolaRacks/Gondola-Rack-1.jpg", "/Products/DisplayRacks/GondolaRacks/Gondola-Rack-2.png"],
     features: ["High tensile strength and corrosion resistant", "Smooth finishing", "Optimum load carrying capacity", "High stability", "Innovative technology"],
     specs: [
       { label: "Surface Treatment", value: "Electrostatic Powder Coating" },

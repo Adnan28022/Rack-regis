@@ -401,7 +401,7 @@ export const productsData: Record<string, Product> = {
   { label: "Load Capacity", value: "Customizable as per Requirements" }
 ]
   },
-    "short-span-racks-with-plastic-bins": {
+  "short-span-racks-with-plastic-bins": {
     id: "SASSR-503",
     name: "Short Span Racks with Plastic Bins",
     category: "Slotted Angle & Short Span Racks",
@@ -416,7 +416,7 @@ export const productsData: Record<string, Product> = {
   { label: "Storage Type", value: "Removable Plastic Bins" }
 ]
   },
-      "slotted-angle-racks": {
+  "slotted-angle-racks": {
     id: "SASSR-504",
     name: "Slotted Angle Racks",
     category: "Slotted Angle & Short Span Racks",
@@ -429,6 +429,36 @@ export const productsData: Record<string, Product> = {
   { label: "Material", value: "High Quality Steel" },
   { label: "Finish", value: "Powder Coated Finish" },
   { label: "Load Capacity", value: "Customizable as per Requirements" }
+]
+  },
+  "plastic-bins-with-led": {
+    id: "PBC-601",
+    name: "Plastic Bins with Led",
+    category: "Plastic Bins & Container",
+    subCategory: "Plastic Bins with Led",
+    description: "Plastic Bins with LED is an organized storage solution featuring illuminated bin locations for quick identification and efficient picking in warehouses, workshops, and industrial facilities.",
+    images: ["/Products/PlasticBins/LED-1.jpg"],
+    features:[  "LED Indication",  "Easy Identification",  "Organized Storage",  "Quick Picking",  "Durable Bins",  "Space Saving"],
+    specs: [
+  { label: "System Type", value: "Plastic Bins with LED" },
+  { label: "Material", value: "Steel Frame with Plastic Bins" },
+  { label: "Lighting", value: "Integrated LED System" },
+  { label: "Finish", value: "Powder Coated Finish" }
+]
+  },
+  "plastic-container-with-led": {
+    id: "PBC-602",
+    name: "Plastic Container With Led",
+    category: "Plastic Bins & Container",
+    subCategory: "Plastic Container With Led",
+    description: "Plastic Containers with LED is a smart storage solution designed for efficient organization and fast item identification, featuring LED-guided containers for improved picking accuracy.",
+    images: ["/Products/PlasticBins/LEDCon-1.jpg", "/Products/PlasticBins/LEDCon-2.jpg"],
+    features:[  "LED Guidance",  "Easy Identification",  "Organized Storage",  "Quick Access",  "Durable Containers",  "Space Saving"],
+    specs: [
+  { label: "System Type", value: "Plastic Containers with LED" },
+  { label: "Material", value: "Steel Frame with Plastic Containers" },
+  { label: "Lighting", value: "Integrated LED System" },
+  { label: "Finish", value: "Powder Coated Finish" }
 ]
   }
 };

@@ -370,6 +370,66 @@ export const productsData: Record<string, Product> = {
   { label: "Finish", value: "Powder Coated Anti-Corrosion" },
   { label: "Load Capacity", value: "200–600 KG per Level (Customizable)" }
 ]
+  },
+  "short-span-bulk-rack": {
+    id: "SASSR-501",
+    name: "Short Span Bulk Rack",
+    category: "Slotted Angle & Short Span Racks",
+    subCategory: "Short Span Bulk Rack",
+    description: "Short Span Bulk Rack is a versatile storage solution designed for efficient handling of lightweight to medium-duty goods, offering easy access and optimal space utilization for warehouses and retail storage.",
+    images: ["/Products/SlottedAngle/ShortSpan-1.jpg"],
+    features:[  "High Storage Capacity",  "Strong Steel Frame",  "Adjustable Shelves",  "Easy Item Access",  "Space Saving",  "Modular Design"],
+    specs: [
+  { label: "System Type", value: "Short Span Bulk Rack" },
+  { label: "Material", value: "High Quality Structural Steel" },
+  { label: "Finish", value: "Powder Coated Finish" },
+  { label: "Load Capacity", value: "200–500 KG per Shelf (Customizable)" }
+]
+  },
+  "short-span-rack-with-mezzanine": {
+    id: "SASSR-502",
+    name: "Short Span Rack with Mezzanine",
+    category: "Slotted Angle & Short Span Racks",
+    subCategory: "Short Span Rack with Mezzanine",
+    description: "Short Span Rack with Mezzanine is a multi-tier storage solution that combines short span shelving with a mezzanine floor to maximize vertical space and improve warehouse efficiency.",
+    images: ["/Products/SlottedAngle/ShortSpanMez-1.jpg"],
+    features:[  "Multi Level Storage",  "Space Optimization",  "Short Span Shelving",  "Strong Steel Structure",  "Easy Accessibility",  "Custom Layout"],
+    specs: [
+  { label: "System Type", value: "Short Span Rack with Mezzanine" },
+  { label: "Material", value: "High Strength Structural Steel" },
+  { label: "Finish", value: "Powder Coated Finish" },
+  { label: "Load Capacity", value: "Customizable as per Requirements" }
+]
+  },
+    "short-span-racks-with-plastic-bins": {
+    id: "SASSR-503",
+    name: "Short Span Racks with Plastic Bins",
+    category: "Slotted Angle & Short Span Racks",
+    subCategory: "Short Span Racks with Plastic Bins",
+    description: "Medium duty racking / plastic storage bin rack.....1.The shelving is composed of uprights and beams, with shelves supported on the beams.2.Choices of decking are available in steel, MDF board and plywood.3.All shelving is easily assembled and shelf level is fully adjustable.4.Size of shelving could be tailor-made.5.With loading capacity ranging from 100kg and up to 800kg per shelving level,",
+    images: ["/Products/SlottedAngle/ShortPlas-1.jpg", "/Products/SlottedAngle/ShortPlas-2.jpg", "/Products/SlottedAngle/ShortPlas-3.jpg", "/Products/SlottedAngle/ShortPlas-4.jpg", "/Products/SlottedAngle/ShortPlas-5.jpg", "/Products/SlottedAngle/ShortPlas-6.jpg", "/Products/SlottedAngle/ShortPlas-7.jpg"],
+    features:[  "Organized Storage",  "Plastic Bin System",  "Easy Item Access",  "Space Saving",  "Durable Structure",  "Modular Design"],
+    specs: [
+  { label: "System Type", value: "Short Span Rack with Plastic Bins" },
+  { label: "Material", value: "Steel Rack with Plastic Bins" },
+  { label: "Finish", value: "Powder Coated Finish" },
+  { label: "Storage Type", value: "Removable Plastic Bins" }
+]
+  },
+      "slotted-angle-racks": {
+    id: "SASSR-504",
+    name: "Slotted Angle Racks",
+    category: "Slotted Angle & Short Span Racks",
+    subCategory: "Slotted Angle Racks",
+    description: "Slotted Angle Rack is a versatile and economical storage solution designed for efficient organization of light to medium-duty goods, with adjustable shelves for flexible storage needs.",
+    images: ["/Products/SlottedAngle/Slot-1.jpg", "/Products/SlottedAngle/Slot-2.jpg"],
+    features:[  "Adjustable Shelves",  "Space Saving",  "Strong Construction",  "Easy Assembly",  "Modular Design",  "Durable Finish"],
+    specs: [
+  { label: "System Type", value: "Slotted Angle Rack" },
+  { label: "Material", value: "High Quality Steel" },
+  { label: "Finish", value: "Powder Coated Finish" },
+  { label: "Load Capacity", value: "Customizable as per Requirements" }
+]
   }
 };
 

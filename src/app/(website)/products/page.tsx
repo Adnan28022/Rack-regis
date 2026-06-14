@@ -11,7 +11,7 @@ const categories = [
   { id: 2, name: "Heavy Duty Racks", subItems: ["Bulk Rack With Mesh Decking","Bulk Rack With Steel Decking", "Double Deep Racking System", "Drive in Drive Thru Racking System", "Palletized Racks"] },
   { id: 3, name: "Medium Duty Racks", subItems: ["Medium Duty Rack With Mesh Decking", "Medium Duty Racks With Plastic Containers", "Rack with Steel Decking"] },
   { id: 4, name: "Mezzanine & Steel Plat Fram", subItems: ["Mezzanine on Gange Ways", "Over Head Steel Plate Farms", "Steel Mezzanine with Medium Duty Racks", "Steel Mezzanine with Short Span Racks"] },
-  { id: 5, name: "Slotted Angle & Short Span Racks", subItems: ["Short Span Bulk Rack", "Short Span Racks with Mezzanine", "Short Span Racks with Plastic Bins", "Slotted Angle Racks"] },
+  { id: 5, name: "Slotted Angle & Short Span Racks", subItems: ["Short Span Bulk Rack", "Short Span Rack with Mezzanine", "Short Span Racks with Plastic Bins", "Slotted Angle Racks"] },
   { id: 6, name: "Plastic Bins & Container", subItems: ["Plastic Bins with Led", "Plastic Container With Led"] },
   { id: 7, name: "Moveable Racks & Cabinets", subItems: ["Cabinets With Drawer", "Filing Cabinets", "Gerneral Cabinets", "Moveable Bulk Rack", "Moveable Filing Racks", "Moveable Racks and Bins", "Tool Cabinets & Trolleys-1", "Tool Cabinets & Trolleys-2"] },
   { id: 8, name: "Labour's Aids", subItems: ["Mens Handly Lockers", "Officer Changing Lockers-1", "Worker Locker-1", "Worker Locker-2", "Worker Locker-3", "Worker Locker-4"] },

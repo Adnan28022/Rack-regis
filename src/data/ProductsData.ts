@@ -653,6 +653,28 @@ export const productsData: Record<string, Product> = {
       {label: "Size", value: "Available in 36, 24, 18, 15, 12, 9, 8 and 6"},
       {label: "Lock", value: "Built in locking system"}
     ]
+  },
+  "material-handling": {
+    id: "MH-901",
+    name: "Material Handling",
+    category: "Material Handling",
+    subCategory: "Material Handling",
+    description: "Material Handling Equipment is designed for safe, efficient, and reliable movement of goods, improving productivity across warehouses and industrial operations.",
+    images: ["/Products/MaterialHandling/M-1.jpg", "/Products/MaterialHandling/M-2.jpg", "/Products/MaterialHandling/M-3.jpg", "/Products/MaterialHandling/M-4.jpg"],
+    features:[
+  "Heavy Duty Design",
+  "Easy Maneuverability",
+  "High Load Capacity",
+  "Smooth Operation",
+  "Ergonomic Handling",
+  "Durable Construction"
+],
+    specs: [
+  { label: "System Type", value: "Manual Material Handling Equipment" },
+  { label: "Material", value: "High Strength Steel" },
+  { label: "Finish", value: "Powder Coated Finish" },
+  { label: "Load Capacity", value: "Customizable as per Requirements" }
+]
   }
 };
 

@@ -573,6 +573,86 @@ export const productsData: Record<string, Product> = {
     specs: [
       {      label: "Color", value: "Red"}
     ]
+  },
+  "mens-handly-lockers": {
+    id: "LA-801",
+    name: "Mens Handly Lockers",
+    category: "Labour's Aids",
+    subCategory: "Mens Handly Lockers",
+    description: "Mens Handy Lockers are secure and compact storage units designed for the safe keeping of personal belongings in workplaces, gyms, schools, and industrial facilities.",
+    images: ["/Products/Lockers/Handly.webp"],
+    features:[
+  "Secure Locking",
+  "Compact Design",
+  "Durable Construction",
+  "Easy Access",
+  "Space Saving",
+  "Multiple Compartments"
+],
+    specs: [
+  { label: "System Type", value: "Mens Handy Locker" },
+  { label: "Material", value: "High Quality Steel" },
+  { label: "Finish", value: "Powder Coated Finish" },
+  { label: "Configuration", value: "Single or Multi-Door Options" }
+]
+  },
+  "officer-changing-lockers-1": {
+    id: "LA-802",
+    name: "Officer Changing Lockers-1",
+    category: "Labour's Aids",
+    subCategory: "Officer Changing Lockers-1",
+    description: "",
+    images: ["/Products/Lockers/Officer.jpg"],
+    features:[],
+    specs: [
+    ]
+  },
+  "worker-lockers-1": {
+    id: "LA-803",
+    name: "Worker Locker-1",
+    category: "Labour's Aids",
+    subCategory: "Worker Locker-1",
+    description: "",
+    images: ["/Products/Lockers/Locker-1.jpg"],
+    features:[],
+    specs: [
+    ]
+  },
+  "worker-lockers-2": {
+    id: "LA-804",
+    name: "Worker Locker-2",
+    category: "Labour's Aids",
+    subCategory: "Worker Locker-2",
+    description: "We are supplying Commercial Lockers as per the requirements,",
+    images: ["/Products/Lockers/Locker-2.jpg"],
+    features:[],
+    specs: [
+    ]
+  },
+  "worker-lockers-3": {
+    id: "LA-805",
+    name: "Worker Locker-3",
+    category: "Labour's Aids",
+    subCategory: "Worker Locker-3",
+    description: "",
+    images: ["/Products/Lockers/Locker-3.jpg"],
+    features:[],
+    specs: [
+    ]
+  },
+  "worker-lockers-4": {
+    id: "LA-806",
+    name: "Worker Locker-4",
+    category: "Labour's Aids",
+    subCategory: "Worker Locker-4",
+    description: "Being one of the manufacturers and suppliers of extensive line of high tensile steel lockers, we deliver the durable worker lockers with proper locks and divisions.Our range is highly robust as well as stylish.",
+    images: ["/Products/Lockers/Locker-4.jpg"],
+    features:[],
+    specs: [
+      {label: "Availability", value: " Available in various colors, sizes and styles"},
+      {label: "Size", value: "Available in 36, 24, 18, 15, 12, 9, 8 and 6"},
+      {label: "Lock", value: "Built in locking system"}
+    ]
   }
 };
 

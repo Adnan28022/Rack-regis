@@ -460,6 +460,119 @@ export const productsData: Record<string, Product> = {
   { label: "Lighting", value: "Integrated LED System" },
   { label: "Finish", value: "Powder Coated Finish" }
 ]
+  },
+  "cabinets-with-drawer": {
+    id: "MRC-701",
+    name: "Cabinets With Drawer",
+    category: "Moveable Racks & Cabinets",
+    subCategory: "Cabinets With Drawer",
+    description: "Silverline filing cabinets made from re-used steel",
+    images: ["/Products/Cabinets/Draw-1.jpg", "/Products/Cabinets/Draw-2.jpg", "/Products/Cabinets/Draw-3.jpg"],
+    features:[  "15 year guarantee",  "Filing cabinets with 2, 3 or 4 drawers",  "Swan neck handle design",  "FIRA certified",  "Undefeatable Anti Tilt locking mechanism"],
+    specs: [
+  { label: "Capacity", value: "40kg suspension file carrying capacity per drawer" },
+  { label: "Drawer Quality", value: "100% drawer extension" },
+  { label: "Keys", value: "Lockable with 2 keys" },
+  { label: "Color", value: "Available colours according customer requirements" }
+]
+  },
+  "filing-cabinets": {
+    id: "MRC-702",
+    name: "Filing Cabinets",
+    category: "Moveable Racks & Cabinets",
+    subCategory: "Filing Cabinets",
+    description: "Folding Office Wall Steel Files Cabinet Cupboard",
+    images: ["/Products/Cabinets/Filing-1.jpg"],
+    features:[  "Different standard lock options.",  "Each shelf is placed on four retaining clips.",  "Epoxy powder coating finish.",  "Master keys can be provided for locks."],
+    specs: [
+  { label: "Thickness", value: "0.7 mm before painting is standard steel thickness" },
+  { label: "Design", value: "Screw free design" },
+  { label: "Shelves", value: " 4 adjustable inner shelves, extra shelves also can be provided" },
+  { label: "Shelf Weight Capacity", value: "Shelf has a weight rate about 45 KGS" }
+]
+  },
+  "general-cabinets": {
+    id: "MRC-703",
+    name: "Gerneral Cabinets",
+    category: "Moveable Racks & Cabinets",
+    subCategory: "Gerneral Cabinets",
+    description: "General Cabinets are versatile storage solutions designed for secure and organized storage of tools, documents, equipment, and supplies in industrial, commercial, and office environments.",
+    images: ["/Products/Cabinets/General (1).webp", "/Products/Cabinets/General (2).webp", "/Products/Cabinets/General (3).webp", "/Products/Cabinets/General (4).webp", "/Products/Cabinets/General (5).webp"],
+    features:[  "Secure Storage",  "Durable Construction",  "Adjustable Shelves",  "Space Saving",  "Easy Access",  "Multi Purpose"],
+    specs: [
+  { label: "System Type", value: "General Storage Cabinet" },
+  { label: "Material", value: "High Quality Steel" },
+  { label: "Finish", value: "Powder Coated Finish" },
+  { label: "Configuration", value: "Customizable Shelving Layout" }
+]
+  },
+  "moveable-bulk-rack": {
+    id: "MRC-704",
+    name: "Moveable Bulk Rack",
+    category: "Moveable Racks & Cabinets",
+    subCategory: "Moveable Bulk Rack",
+    description: "Movable Bulk Rack is a flexible storage system designed to maximize storage capacity and optimize floor space with easy mobility and efficient access to bulk goods.",
+    images: ["/Products/Cabinets/Bulk-1.jpg", "/Products/Cabinets/Bulk-2.jpg", "/Products/Cabinets/Bulk-3.jpg"],
+    features:[  "Movable Design",  "High Storage Capacity",  "Space Saving",  "Easy Access",  "Heavy Duty",  "Smooth Operation"],
+    specs: [
+  { label: "System Type", value: "Movable Bulk Rack" },
+  { label: "Material", value: "High Strength Steel" },
+  { label: "Finish", value: "Powder Coated Finish" },
+  { label: "Load Capacity", value: "Customizable as per Requirements" }
+]
+  },
+  "moveable-filing-racks": {
+    id: "MRC-705",
+    name: "Moveable Filing Racks",
+    category: "Moveable Racks & Cabinets",
+    subCategory: "Moveable Filing Racks",
+    description: "Movable Filing Rack is a compact storage system designed for organized document management, maximizing space while providing easy and secure access to files.",
+    images: ["/Products/Cabinets/M-file-1.jpg", "/Products/Cabinets/M-file-2.jpg", "/Products/Cabinets/M-file-3.jpg"],
+    features:[  "Compact Design",  "Smooth Mobility",  "Space Saving",  "Easy File Access",  "Secure Storage",  "Durable Build"],
+    specs: [
+  { label: "System Type", value: "Movable Filing Rack" },
+  { label: "Material", value: "High Quality Steel" },
+  { label: "Finish", value: "Powder Coated Finish" },
+  { label: "Storage Type", value: "Customizable Filing Compartments" }
+]
+  },
+  "moveable-racks-and-bins": {
+    id: "MRC-706",
+    name: "Moveable Racks and Bins",
+    category: "Moveable Racks & Cabinets",
+    subCategory: "Moveable Racks and Bins",
+    description: "Movable Racks and Bins are efficient storage solutions designed for easy mobility, organized inventory management, and maximum space utilization in warehouses and industrial facilities.",
+    images: ["/Products/Cabinets/Bin-1.jpg", "/Products/Cabinets/Bin-2.jpg"],
+    features:[  "Easy Mobility",  "Organized Storage",  "Space Saving",  "Durable Build",  "Quick Access",  "Modular Design"],
+    specs: [
+  { label: "System Type", value: "Movable Racks and Bins" },
+  { label: "Material", value: "High Quality Steel with Storage Bins" },
+  { label: "Finish", value: "Powder Coated Finish" },
+  { label: "Configuration", value: "Customizable Bin Layout" }
+]
+  },
+  "tool-cabinets-and-trolleys-1": {
+    id: "MRC-707",
+    name: "Tool Cabinets & Trolleys-1",
+    category: "Moveable Racks & Cabinets",
+    subCategory: "Tool Cabinets & Trolleys-1",
+    description: "Sitequip Mobile Maintenance Cabinet With Tool Board",
+    images: ["/Products/Cabinets/Tool-1.jpg"],
+    features:[  "Auto latching roller drawers with adjustable dividers",  "Non-slip rubber work surface",  "Rear tool board",  "Tool hooks not included",  "5 x Drawers (2 x 200mm H / 3 x 100mm H)"],
+    specs: [
+    ]
+  },
+  "tool-cabinets-and-trolleys-2": {
+    id: "MRC-708",
+    name: "Tool Cabinets & Trolleys-2",
+    category: "Moveable Racks & Cabinets",
+    subCategory: "Tool Cabinets & Trolleys-2",
+    description: "Our high quality and well-made tool box will keep all your tools close by and organised. With powder coating finish, this tool box is built to last long in the garage. Premium designs such as various depth drawers and sharp edge protection to provide more convenience for your daily use.",
+    images: ["/Products/Cabinets/Tool-2.jpg"],
+    features:[  "Heavy duty and large capacity",  "Sturdy construction & stylish Matte finish",  "Multi size drawers available for wide range of tools",  "Size handles for easy handling",  "Drawers fully Lockable to keep in safety", "Dimension: 61.5 X 33 X 74cm"],
+    specs: [
+      {      label: "Color", value: "Red"}
+    ]
   }
 };
 
